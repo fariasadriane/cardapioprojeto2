@@ -1,0 +1,92 @@
+body,html{
+margin: auto;
+border: solid 2px black;
+}
+/*Aplicando imagem de fundo*/
+
+body {
+    background:url(img/CARAMELO2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  header .logo{
+    width: 100px;
+}
+h1{
+  font-size: larger;  
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align-last: center;
+  font-size:60px;
+  color: #F5B041 ;
+  text-shadow: 5px 5px 6px black;
+}
+h2{
+    font-size: 35px;
+    font-style: italic;
+    text-align-last: center;
+    color:black;
+    text-shadow: 5px 5px 6px rgb(4, 4, 4);
+}
+.navegador{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(6, 6, 6);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+
+.navegador ul{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+    
+}
+.navegador ul li a{
+    background-image: -moz-element(10px);
+    color:#FFD700;
+    font-size: 20px;
+    padding-bottom:10px;
+    border-bottom: 20px;
+    transition: all .6s;
+}
+.navegador ul li a:hover{
+    border-bottom: 4px solid #ff2f00;
+}
+* {
+    box-sizing: border-box;
+  }
+.links{
+    list-style: none;
+    display: flex; 
+ }
+#imagen ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+    background-color:#D27D2D;
+}
+h3{
+    background-color: #EC5800;   
+}
+#rodape{
+    color: yellow;
+    font-size: 12px;
+    font-family:  Arial;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+
+}
+
+
